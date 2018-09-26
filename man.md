@@ -69,3 +69,46 @@ You can edit your client with these set of colors from  `~/.config/socie/config`
 
 Note: If you have colors already defined in your ~/.Xresources or similar, this will 
 be very confusing. Assuming you are using your terminal stock colors.
+
+
+## How to install step by step (no notes version)
+------------------------
+
+1. On your CLI, install the dependencies (recommended pip3):
+
+    `sudo pip3 install asyncio discord blessings pyyaml`
+
+2. Clone the repo
+
+    `git clone https://github.com/archvillain/socie`
+
+
+3. Find your dikord "token"
+
+    * Use your Dikord app or go to http://discordapp.com/channels/@me
+
+    * Open your internet browser's developer console. (Normally `F12` or `CTRL-SHIFT-I`) (works on Dikord application as well)
+
+    * Click `Network` tab, the `Console` tab is not needed.
+
+    * Type `"/api"` on text box that has `'Filter'` in it, Refresh Dikord by `F5`, 
+
+    * Click on the "application" box under "Names" tab, clicking this will show you a list of variables on the bottom right of the console page. 
+    
+    * Scroll down for a line that looks like:
+
+        `"authorization: your.token123456fuckyoueatass6969420"`
+
+    * Copy your token and paste it somewhere safe
+
+4. On CLI type `python3 socie.py --store-token your.token123456fuckyoueatass6969420` to store your token
+
+5. On CLI Type `python3 socie.py --copy-skeleton` to get a template config
+
+6. On CLI Edit `~/.config/socie/config` to your choosing. (I recommend increasing some space and another CLI window)
+
+7. Launch <b>socie</b> with `python3`
+
+    `python3 socie.py`
+
+    *(if you have `python3.6` you can simply use `./socie.py`)*
