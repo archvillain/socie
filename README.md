@@ -1,4 +1,4 @@
-#<img src="res/logo/logo_small.png" alt="socie" width="75"/> socie
+<img src="res/logo/logo_small.png" alt="socie" width="50"/> socie 
 ------------------------------
 
 __**Warning**__: Currently Linux/BSD/Mac only.
