@@ -1,4 +1,5 @@
-# ![logo_small.png](res/logo/logo_small.png =50x50) socie
+# ![logo_small.png](res/logo/logo_small.png) socie
+<img src="res/logo/logo_small.png" alt="socie" width="100"/>
 ------------------------------
 
 __**Warning**__: Currently Linux/BSD/Mac only.
