@@ -1,4 +1,4 @@
-# ![logo_small.png](res/logo/logo_small.png) socie
+# ![logo_small.png](res/logo/logo_small.png =50x50) socie
 ------------------------------
 
 __**Warning**__: Currently Linux/BSD/Mac only.
