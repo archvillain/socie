@@ -74,7 +74,7 @@ be very confusing. Assuming you are using your terminal stock colors.
 ## How to install step by step (no notes version)
 ------------------------
 
-1. On your CLI, install the dependencies (recommended pip3):
+1. On your CLI, install the dependencies (recommended `pip3`):
 
     `sudo pip3 install asyncio discord blessings pyyaml`
 
