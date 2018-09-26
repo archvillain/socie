@@ -1,0 +1,2 @@
+# socie
+shitty dikcord cli
