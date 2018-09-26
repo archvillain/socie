@@ -1,0 +1,7 @@
+This folder only needs:
+
+logo_large.png
+logo_small.png
+logo.svg
+
+purple/green color

@@ -1,0 +1,20 @@
+#!/bin/sh
+#
+# This is a script to easily launch socie
+# from an application launcher or similar.
+#
+# https://github.com/archvillain/socie
+#
+# These are just examples of what I use,
+# edit them to match your system and needs.
+
+term='st'
+font='MonteCarlo'
+shell='/bin/dash'
+SOCIE_DIR="${HOME}/workspace/socie"
+PYTHON_VERSION='3.6'
+
+# ------------------------------------------------------- 
+
+$term -f $font -e $shell -c "cd $SOCIE_DIR  && \
+    python$PYTHON_VERSION socie.py" &
