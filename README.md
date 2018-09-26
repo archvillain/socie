@@ -1,5 +1,4 @@
-# ![logo_small.png](res/logo/logo_small.png) socie
-<img src="res/logo/logo_small.png" alt="socie" width="100"/>
+#<img src="res/logo/logo_small.png" alt="socie" width="75"/> socie
 ------------------------------
 
 __**Warning**__: Currently Linux/BSD/Mac only.
