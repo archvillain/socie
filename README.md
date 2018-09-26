@@ -28,7 +28,7 @@ edit fit for your system.
 ## How to get "socie" running:
 -------------------------
 
-1. On your CLI, install the dependencies (recommended pip3):
+1. On your CLI, install the dependencies (recommended `pip3`):
 
     `sudo pip3 install asyncio discord blessings pyyaml`
 
