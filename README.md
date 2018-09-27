@@ -55,7 +55,7 @@ Otherwise it will become public. Just don't put it anywhere in this repository o
 
     * Type `"/api"` on text box that has `'Filter'` in it, Refresh Dikord by `F5`, 
 
-    * Click on the "application" box under "Names" tab, clicking this will show you a list of variables on the bottom right of the console page. 
+    * Click on the `applications` box under `Headers` tab (bottom right of the console screen), clicking this will show you a list of variables on the bottom right of the console page. 
     
     * Scroll down for a line that looks like:
 
