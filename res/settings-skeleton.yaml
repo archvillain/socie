@@ -5,9 +5,9 @@
 # -------------------------------------------------------------------------
 
 # the default server which will be joined upon startup - CASE SENSITIVE!
-default_server: datumix.io
+default_server: socie
 # the default channel which will be joined upon startup - CASE SENSITIVE!
-default_channel: work-related
+default_channel: ahegaobox
 
 # the leading character used for commands
 prefix: /
