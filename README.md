@@ -16,9 +16,12 @@
     <a href="#status">
         <img src="https://img.shields.io/badge/status-working-green.svg"
             alt="status"></a>
-    <a href="#update">
-        <img src="https://img.shields.io/badge/update-on hold-FFA500.svg"
-            alt="update"></a>
+    <a href="#development">
+        <img src="https://img.shields.io/badge/development-on hold-FFA500.svg"
+            alt="development"></a>
+    <a href="#dependencies">
+        <img src="https://img.shields.io/badge/pip3-asyncio, discord, blessings-yellowgreen.svg"
+            alt="dependencies"></a>
 </p>
 
 __**Warning**__: Currently Linux/BSD/Mac only.
