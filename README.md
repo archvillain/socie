@@ -9,7 +9,6 @@
         <img src="https://img.shields.io/discord/494990656603815950.svg?logo=discord"
             alt="chat on Discord"></a>
 </p>
-------------------------------
 
 __**Warning**__: Currently Linux/BSD/Mac only.
 
