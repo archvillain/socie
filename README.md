@@ -4,9 +4,6 @@
 <p align="center">
     <a href="https://raw.githubusercontent.com/archvillain/socie/master/LICENSE" alt="WTFPL License">
         <img src="https://img.shields.io/badge/license-WTFPL-ff69b4.svg"/></a>
-    <a href="#members">
-        <img src="https://img.shields.io/badge/members-3-lightgrey.svg"
-            alt="members recorded"></a>
     <a href="#status">
         <img src="https://img.shields.io/badge/status-working-green.svg"
             alt="status"></a>
@@ -22,6 +19,9 @@
     <a href="https://discord.gg/pzAfBJ">
         <img src="https://img.shields.io/discord/494990656603815950.svg?logo=discord"
             alt="chat on Discord"></a>
+    <a href="#members">
+        <img src="https://img.shields.io/badge/members-3-lightgrey.svg"
+            alt="members recorded"></a>
 </p>
 
 __**Warning**__: Currently Linux/BSD/Mac only.
