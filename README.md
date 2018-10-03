@@ -1,4 +1,6 @@
-<img src="res/logo/logo_small.png" alt="socie" width="50"/> socie 
+<p align="center">
+<img src="res/logo/logo_small.png" alt="socie" width="50"/> socie
+</p>
 <p align="center">
     <a href="https://raw.githubusercontent.com/archvillain/socie/master/LICENSE" alt="WTFPL License">
         <img src="https://img.shields.io/badge/license-WTFPL-ff69b4.svg"/></a>
