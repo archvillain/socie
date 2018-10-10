@@ -38,7 +38,7 @@ else:
 init_complete = False
 
 # Set terminal X11 window title
-print('\33]0;socie\a', end='', flush=True)
+print('\33]0;Societ̸̼̯̣͑̈́͝t̶̲̺̰́̌e // ソシエット\a', end='', flush=True)
 
 os.system("clear")
 
