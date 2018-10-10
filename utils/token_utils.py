@@ -15,8 +15,9 @@ def get_token():
     
     from blessings import Terminal
     gc.term = Terminal()
-    print("\n" + gc.term.red("Error reading token."))
-    print("\n" + gc.term.yellow("Are you sure you stored your token? Double check"))
+    print(gc.term.red("INVALID:"))
+    print("\n" + gc.term.red("ERROR: 無効なトークン。 \nE̸̗͚̰̜͎̫̿̐̊̔͆̾̉̊̅̚͝RRƠ̸̳̙̙̯̌͒̓̽͒̒̄̓͒̽͒͊̅̍̐̇̋̽̅̎̿͒̈́̈͒̈́͝͝͠͝͝R: token i̷n̸v̴a̵l̴i̶d̶."))
+    print("\n" + gc.term.yellow("Incorrect token input. Please check if you input a token. \n不正なトークン入力。 トークンを入力したかどうかを確認してください。"))
     print(gc.term.yellow("Use --store-token to store your token."))
     quit()
 
@@ -28,7 +29,8 @@ def store_token():
     try: 
         token=sys.argv[2]
     except IndexError:
-        print(Terminal().red("Error: You did not specify a token! probably incorrect input"))
+        print(Terminal().yellow("INVALID:")) #some reason its bright blue?
+        print(Terminal().red("ERROR: お前はトークンを指定していません！ おそらく誤った入力。\nE̸̗͚̰̜͎̫̿̐̊̔͆̾̉̊̅̚͝RRƠ̸̳̙̙̯̌͒̓̽͒̒̄̓͒̽͒͊̅̍̐̇̋̽̅̎̿͒̈́̈͒̈́͝͝͠͝͝R: You did not specify a token! probably incorrect input"))
         quit()
 
     if not os.path.exists(os.getenv("HOME") + "/.config/socie"):
@@ -49,7 +51,9 @@ def store_token():
         f = open(os.getenv("HOME") + "/.config/socie/token", "w")
         f.write(token)
         f.close()
-        print(Terminal().green("a Token is fucking stored!"))
+        print(Terminal().green("PASSED:"))
+        print(Terminal().green("トークンは入力され保存されています。S̷̨̻͗̋͒ocieţ̵̛̩̰̬̒̓͝ţ̸̧̍̽̅̑̿e  🗲 「 ソシエット 」をしてください。\n\nT̸̡̻̺͍̝͈͚͈̘̥̣̮̥͎̅̿̑͋͊̅͌͂̀̄̅͒̚͘͘̚͝͝ͅoken stored! Please run socie."))
+        print(Terminal().green("\nrun: python3 socie.py   -or-    ./socie.py \n"))
     except:
-        print(Terminal().red("Error: Could not write token to file."))
+        print(Terminal().red("ERROR: ファイルにトークンを書き込めませんでした。\nE̸̗͚̰̜͎̫̿̐̊̔͆̾̉̊̅̚͝RRƠ̸̳̙̙̯̌͒̓̽͒̒̄̓͒̽͒͊̅̍̐̇̋̽̅̎̿͒̈́̈͒̈́͝͝͠͝͝R: Could not write token to file."))
         quit()
