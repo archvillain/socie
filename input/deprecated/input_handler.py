@@ -8,6 +8,8 @@ from socie.utils.globals import gc
 from socie.commands.sendfile import send_file
 from socie.commands.channel_jump import channel_jump
 
+#input-handler.py, prototype
+
 def key_input():
     # if the next two aren't here, input does not work
     curses.cbreak()
