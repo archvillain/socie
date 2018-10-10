@@ -19,16 +19,16 @@ def copy_skeleton():
                 pass
 
         copyfile("res/settings-skeleton.yaml", os.getenv("HOME") + "/.config/socie/config", follow_symlinks=True) 
-        print(term.green("Skeleton copied!" + term.normal))
-        print(term.cyan("Your configuration file can be found at ~/.config/socie"))
+        print(term.green("PASSED:\nsettings-skeleton.yamlがコピーされました！\nsettings-skeleton.yaml has been copied!" + term.normal))
+        print(term.cyan("\nNOTE:\n設定ファイルは 「 ~/.config/socie 」にあります。\nYour configuration file can be found at $[~/.config/socie]\n"))
 
     except KeyboardInterrupt: 
-        print("Cancelling...")
+        print("キャンセルしている...\nCancelling...")
         quit()
     except SystemExit: 
         quit()
     except:
-        print(term.red("Error creating skeleton file."))
+        print(term.red("スケルトンファイルの作成中にエラーが発生しました。\nError creating skeleton file."))
         quit()
 
 def load_config(path):
@@ -51,10 +51,10 @@ elif arg == "--config":
     try:
         load_config(sys.argv[2])
     except IndexError:
-        print("No path provided?")
+        print("提供されるパスはありませんか？\nNo path provided?")
         quit()
     except:
-        print("Invalid path to config entered.")
+        print("入力された設定へのパスが無効です。\nInvalid path to config entered.")
         quit()
 else:
     try:
@@ -63,5 +63,5 @@ else:
         try:
             load_config(os.getenv("HOME") + "/.socie")
         except:
-            print(term.red("ERROR: could not get settings."))
+            print(term.red("INVALID:\nERROR:設定が見つかりません。\nsettings are not found."))
             quit()
