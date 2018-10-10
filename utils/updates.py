@@ -3,7 +3,7 @@ def check_for_updates():
     from os import path
     
     if not path.exists(".git"):
-        print(gc.term.red("E̸̗͚̰̜͎̫̿̐̊̔͆̾̉̊̅̚͝RRƠ̸̳̙̙̯̌͒̓̽͒̒̄̓͒̽͒͊̅̍̐̇̋̽̅̎̿͒̈́̈͒̈́͝͝͠͝͝R: client not started from its directory! Cancelling..."))
+        print(gc.term.red("INVALID:\nERROR:クライアントはそのディレクトリから起動していません！ もう一度お試しください。\nE̸̗͚̰̜͎̫̿̐̊̔͆̾̉̊̅̚͝RRƠ̸̳̙̙̯̌͒̓̽͒̒̄̓͒̽͒͊̅̍̐̇̋̽̅̎̿͒̈́̈͒̈́͝͝͠͝͝R: client not started from its directory! Cancelling..."))
         print(gc.term.yellow("Please start the client from its folder to get automatic updates. \n自動アップデートを取得するには、そのフォルダからクライアントを起動する必要があります。"))
         return
 
@@ -27,8 +27,8 @@ def check_for_updates():
     except SystemExit: pass
     except OSError: # (file not found)
         # They must not have git installed, no automatic updates for them!
-        print(gc.term.red + "E̸̗͚̰̜͎̫̿̐̊̔͆̾̉̊̅̚͝RRƠ̸̳̙̙̯̌͒̓̽͒̒̄̓͒̽͒͊̅̍̐̇̋̽̅̎̿͒̈́̈͒̈́͝͝͠͝͝R: Could not get updates. Is \
-               git installed?" +"\n"+"ERROR: GITが必要です。" + gc.term.normal)
+        print(gc.term.red +"ERROR: GITが必要です。" + "E̸̗͚̰̜͎̫̿̐̊̔͆̾̉̊̅̚͝RRƠ̸̳̙̙̯̌͒̓̽͒̒̄̓͒̽͒͊̅̍̐̇̋̽̅̎̿͒̈́̈͒̈́͝͝͠͝͝R: Could not get updates. Is \
+               git installed?" + gc.term.normal)
     except:
         print(gc.term.red + "Unknown E̸̗͚̰̜͎̫̿̐̊̔͆̾̉̊̅̚͝RRƠ̸̳̙̙̯̌͒̓̽͒̒̄̓͒̽͒͊̅̍̐̇̋̽̅̎̿͒̈́̈͒̈́͝͝͠͝͝R (error) occurred during \
                updates." + gc.term.normal)
