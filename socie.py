@@ -193,7 +193,7 @@ def main():
     token = get_token()
     init_input()
 
-    print(gc.term.yellow("S̷̨̻͗̋͒ociet̸̼̯̣͑̈́͝t̶̲̺̰́̌e   🗲  「 ソシエット 」を参ります。お待ちください。\n\Societte (Erune): Scarlet Vane\n"))
+    print(gc.term.yellow("S̷̨̻͗̋͒ociet̸̼̯̣͑̈́͝t̶̲̺̰́̌e   🗲  「 ソシエット 」を参ります。お待ちください。\n\nSociette (Erune): Scarlet Vane\n"))
     print(gc.term.yellow("作成... Alabaster Dance Tenka..."))
     print(gc.term.yellow("作成... First Dance Kagura..."))
     print(gc.term.yellow("作成... Sixth Dance Bizen..."))
