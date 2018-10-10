@@ -183,8 +183,8 @@ def main():
             # --- now handled in utils.settings.py ---- #
             pass
         else:
-            print(gc.term.red("Error: Unknown command."))
-            print(gc.term.yellow("See --help for options."))
+            print(gc.term.red("E̸̗͚̰̜͎̫̿̐̊̔͆̾̉̊̅̚͝RRƠ̸̳̙̙̯̌͒̓̽͒̒̄̓͒̽͒͊̅̍̐̇̋̽̅̎̿͒̈́̈͒̈́͝͝͠͝͝R: Unknown command."))
+            print(gc.term.yellow("オプションについては 「 --help 」 を参照してください。\nSee --help for options."))
             quit()
     except IndexError: 
         pass
@@ -193,7 +193,14 @@ def main():
     token = get_token()
     init_input()
 
-    print(gc.term.yellow("Setting up..."))
+    print(gc.term.yellow("S̷̨̻͗̋͒ociet̸̼̯̣͑̈́͝t̶̲̺̰́̌e   🗲  「 ソシエット 」を参ります。お待ちください。\n\Societte (Erune): Scarlet Vane\n"))
+    print(gc.term.yellow("作成... Alabaster Dance Tenka..."))
+    print(gc.term.yellow("作成... First Dance Kagura..."))
+    print(gc.term.yellow("作成... Sixth Dance Bizen..."))
+    print(gc.term.yellow("作成... Closing Dance Tokiyomi..."))
+    print(gc.term.yellow("作成とYuel... Sapphire Dance: Gentiana...\n"))
+    print(gc.term.yellow("Setting up Societte (socie)...\n"))
+
 
     # start the client
     try: gc.client.run(token, bot=False)
