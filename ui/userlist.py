@@ -1,3 +1,4 @@
+#needs to update to socie specifications
 from discord import Status
 
 # On call of the /users command, this will print
