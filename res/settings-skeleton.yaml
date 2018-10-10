@@ -19,7 +19,7 @@ has_nitro: false
 default_prompt: "~"
 
 # the default 'playing ' status in discord
-default_game: socie
+# default_game: Societte
 
 # used for various things, your preference
 arrays_start_at_zero: false
@@ -60,11 +60,24 @@ left_bar_divider: 8 #9
 # appends "..." to the end when the screen is too small to display them
 truncate_channels: false
 
+########################################9/29############################
 # Whether to number channels in the left bar (ex: "1. general")
 number_channels: false
 
 # the amount of lines to scroll up/down on each trigger
-scroll_lines: 4
+scroll_lines: 3
+
+# Enables logging user messages to a file
+message_log: false
+
+# Enables timestamps
+timestamps_enabled: false
+
+# Timestamp format string
+# See https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior for
+# more info
+timestamp_format: "%H:%M:%S"
+#######################################9/29end##########################
 
 # ---------------- COLOR SETTINGS ------------------------------------ #
 # Available colors are: "white", "red", "blue", "black"
