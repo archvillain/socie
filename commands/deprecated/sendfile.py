@@ -6,6 +6,8 @@ import discord
 from socie.utils.globals import gc
 from socie.ui.ui import set_display
 
+#def send_file, prototype
+
 def send_file(filepath):
 
     # try to open the file exactly as user inputs it
