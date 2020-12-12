@@ -25,10 +25,7 @@
 </p>
 
 __**Warning**__: Currently Linux/BSD/Mac only.
-
-**NOTE**: For educational purposes and personal use none other. AS-IS product. This will repository is temporary. `CLI` means `command language interpreter` if you are illiterate computer user.
-
-### Legal Disclaimer
+THIS PROJECT IS FOR EDUCATIONAL USE NOW. AND IT WILL NOT WORK ANYMORE IF YOU ATTEMPT.
 --------------------------------
 
 Discord boys has not annouced any official statement if using their
